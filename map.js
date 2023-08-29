@@ -47,3 +47,5 @@ assertArraysEqual(map2, []);
 
 const map3 = map([2, 1, 3], num => num * num);
 assertArraysEqual(map3, [4, 1, 9]);
+
+module.exports = map;

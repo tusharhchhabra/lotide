@@ -33,3 +33,5 @@ assertEqual(result1, 'b');
 const isGreaterThanTen = value => value > 10;
 const result2 = findKey({ p: 1, q: 3, r: 5 }, isGreaterThanTen);
 assertEqual(result2, undefined);
+
+module.exports = findKey;

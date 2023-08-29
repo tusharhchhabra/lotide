@@ -26,3 +26,5 @@ let count = countLetters("Lighthouse Labs");
 assertEqual(count["L"], 2);
 assertEqual(count["s"], 2);
 assertEqual(count["e"], 1);
+
+module.exports = countLetters;

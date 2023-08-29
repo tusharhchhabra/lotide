@@ -62,3 +62,6 @@ assertArraysEqual(result2, [1, 3, 5]);
 
 const result = takeUntil([10, 20, 30, 40], () => false);
 assertArraysEqual(result, [10, 20, 30, 40]);
+
+
+module.exports = takeUntil;

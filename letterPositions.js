@@ -48,3 +48,5 @@ const positions = letterPositions("Lighthouse Labs");
 assertArraysEqual(positions["L"], [0, 11]);
 assertArraysEqual(positions["h"], [3, 5]);
 assertArraysEqual(positions[" "], [10]);
+
+module.exports = letterPositions;
